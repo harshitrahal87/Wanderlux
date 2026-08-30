@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="mSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#37b0d6"/>
+      <stop offset="55%" stop-color="#a6e2ef"/>
+      <stop offset="100%" stop-color="#e9fafd"/>
+    </linearGradient>
+    <linearGradient id="mSea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38c6d6"/>
+      <stop offset="100%" stop-color="#0f9fc4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="640" fill="url(#mSky)"/>
+  <circle cx="200" cy="150" r="66" fill="#fff7d6" opacity="0.9"/>
+  <g fill="#ffffff" opacity="0.6">
+    <ellipse cx="620" cy="120" rx="80" ry="18"/>
+    <ellipse cx="820" cy="100" rx="60" ry="15"/>
+  </g>
+  <!-- sea -->
+  <rect y="330" width="1000" height="310" fill="url(#mSea)"/>
+  <g stroke="#ffffff" stroke-width="3" opacity="0.25" fill="none">
+    <path d="M100 420 q 25 -8 50 0 t 50 0"/>
+    <path d="M520 470 q 25 -8 50 0 t 50 0"/>
+    <path d="M840 440 q 25 -8 50 0 t 50 0"/>
+  </g>
+  <!-- overwater bungalows -->
+  <g>
+    <!-- walkway -->
+    <rect x="120" y="360" width="760" height="14" fill="#a9793f"/>
+    <g fill="#8a5a2b">
+      <rect x="180" y="374" width="10" height="70"/>
+      <rect x="380" y="374" width="10" height="70"/>
+      <rect x="600" y="374" width="10" height="70"/>
+      <rect x="800" y="374" width="10" height="70"/>
+    </g>
+    <!-- bungalow 1 -->
+    <g transform="translate(250 300)">
+      <rect x="0" y="40" width="120" height="60" fill="#f3ede0"/>
+      <path d="M-12 40 L60 0 L132 40 Z" fill="#7d5236"/>
+      <rect x="18" y="60" width="24" height="30" fill="#7cc6d6"/>
+      <rect x="78" y="60" width="24" height="30" fill="#7cc6d6"/>
+      <rect x="30" y="100" width="60" height="46" fill="#8a5a2b" opacity="0.4"/>
+    </g>
+    <!-- bungalow 2 -->
+    <g transform="translate(560 300)">
+      <rect x="0" y="40" width="120" height="60" fill="#f3ede0"/>
+      <path d="M-12 40 L60 0 L132 40 Z" fill="#7d5236"/>
+      <rect x="18" y="60" width="24" height="30" fill="#7cc6d6"/>
+      <rect x="78" y="60" width="24" height="30" fill="#7cc6d6"/>
+      <rect x="30" y="100" width="60" height="46" fill="#8a5a2b" opacity="0.4"/>
+    </g>
+  </g>
+</svg>

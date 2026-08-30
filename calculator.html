@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Use the WanderLux Trip Cost Calculator to estimate your holiday cost by destination, number of travellers, days and travel style.">
+  <meta name="keywords" content="trip cost calculator, travel budget, holiday estimate, travel cost">
+  <meta name="author" content="WanderLux Travel Agency">
+  <title>WanderLux Travel Agency | Trip Cost Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <noscript><style>.reveal{opacity:1 !important;transform:none !important;}</style></noscript>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Wander<span>Lux</span></div>
+    <button class="menu-btn" onclick="toggleMenu()" aria-label="Open menu">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="calculator.html" class="active">Trip Calculator</a></li>
+      <li><a href="appointment.html">Appointment</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+  <section class="section">
+    <h2>Trip Cost Calculator</h2>
+    <p class="subtitle">Enter your travel preferences to get an instant estimate</p>
+
+    <div class="form-box">
+      <label for="destination">Destination</label>
+      <select id="destination">
+        <option value="">-- Select a destination --</option>
+        <option value="Bali">Bali</option>
+        <option value="Dubai">Dubai</option>
+        <option value="Paris">Paris</option>
+        <option value="Maldives">Maldives</option>
+        <option value="Sydney">Sydney</option>
+        <option value="Tokyo">Tokyo</option>
+      </select>
+
+      <label for="travellers">Number of Travellers</label>
+      <input type="number" id="travellers" min="1" placeholder="e.g. 2">
+
+      <label for="days">Number of Days</label>
+      <input type="number" id="days" min="1" placeholder="e.g. 5">
+
+      <label for="style">Travel Style</label>
+      <select id="style">
+        <option value="">-- Select a style --</option>
+        <option value="Budget">Budget</option>
+        <option value="Standard">Standard</option>
+        <option value="Luxury">Luxury</option>
+      </select>
+
+      <span class="error" id="calcError"></span>
+
+      <button type="button" class="btn" onclick="calculateCost()">Calculate Cost</button>
+
+      <div class="result-box" id="result"></div>
+    </div>
+
+    <p class="subtitle" style="margin-top:30px;">
+      Rates include a daily cost per traveller, a base accommodation charge and a
+      travel-style multiplier (Budget, Standard or Luxury).
+    </p>
+  </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 WanderLux Travel Agency. All rights reserved.</p>
+    <p>123 Collins Street, Melbourne VIC | <a href="mailto:info@wanderlux.com">info@wanderlux.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

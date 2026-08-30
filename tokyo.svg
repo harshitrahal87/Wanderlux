@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="tSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8ec5f0"/>
+      <stop offset="60%" stop-color="#cfe8fb"/>
+      <stop offset="100%" stop-color="#fbe4ec"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="640" fill="url(#tSky)"/>
+  <circle cx="820" cy="150" r="66" fill="#ffd9e0" opacity="0.9"/>
+  <!-- Mount Fuji -->
+  <path d="M120 560 L360 230 L600 560 Z" fill="#7fa8cf"/>
+  <path d="M300 320 L360 230 L420 320 Q 360 290 300 320 Z" fill="#ffffff"/>
+  <!-- cherry blossom branch -->
+  <g>
+    <path d="M0 120 Q 120 150 220 110" stroke="#7b4a2d" stroke-width="6" fill="none"/>
+    <g fill="#ffb7d0">
+      <circle cx="60" cy="128" r="12"/><circle cx="100" cy="120" r="10"/>
+      <circle cx="150" cy="118" r="12"/><circle cx="200" cy="108" r="10"/>
+      <circle cx="130" cy="140" r="9"/>
+    </g>
+  </g>
+  <!-- Tokyo Tower -->
+  <g fill="#e2534a">
+    <path d="M690 120 L710 120 L724 300 L676 300 Z"/>
+    <path d="M676 300 L724 300 L752 560 L648 560 Z"/>
+  </g>
+  <g stroke="#e2534a" stroke-width="4" fill="none">
+    <path d="M660 400 L740 400"/><path d="M648 470 L752 470"/>
+    <path d="M690 120 L648 560"/><path d="M710 120 L752 560"/>
+  </g>
+  <rect x="695" y="86" width="10" height="34" fill="#e2534a"/>
+  <!-- ground -->
+  <rect y="560" width="1000" height="80" fill="#5f8a63"/>
+</svg>

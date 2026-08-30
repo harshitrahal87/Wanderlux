@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="dSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6b25a"/>
+      <stop offset="50%" stop-color="#f7d08a"/>
+      <stop offset="100%" stop-color="#fdeecb"/>
+    </linearGradient>
+    <linearGradient id="dBuild" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8db8d8"/>
+      <stop offset="100%" stop-color="#5c8bb0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="640" fill="url(#dSky)"/>
+  <circle cx="800" cy="180" r="70" fill="#fff6e0" opacity="0.85"/>
+  <!-- skyline -->
+  <g fill="url(#dBuild)">
+    <rect x="80" y="380" width="60" height="210"/>
+    <rect x="160" y="320" width="70" height="270"/>
+    <rect x="700" y="350" width="80" height="240"/>
+    <rect x="800" y="300" width="60" height="290"/>
+    <rect x="880" y="360" width="70" height="230"/>
+  </g>
+  <!-- Burj Khalifa style tower -->
+  <g fill="#bcd6ea">
+    <path d="M470 90 L530 90 L512 300 L488 300 Z"/>
+    <path d="M488 300 L512 300 L528 430 L472 430 Z"/>
+    <path d="M472 430 L528 430 L548 590 L452 590 Z"/>
+  </g>
+  <rect x="497" y="30" width="6" height="60" fill="#9db9cf"/>
+  <g stroke="#8fb4d0" stroke-width="2" opacity="0.7">
+    <path d="M476 330 L524 330"/><path d="M470 380 L530 380"/>
+    <path d="M462 470 L538 470"/><path d="M457 520 L543 520"/>
+  </g>
+  <!-- water -->
+  <rect y="560" width="1000" height="80" fill="#3fa3c4"/>
+  <g stroke="#ffffff" stroke-width="3" opacity="0.3" fill="none">
+    <path d="M120 595 q 25 -8 50 0 t 50 0"/>
+    <path d="M640 600 q 25 -8 50 0 t 50 0"/>
+  </g>
+</svg>

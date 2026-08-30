@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="fSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3f9fe0"/>
+      <stop offset="100%" stop-color="#bfe6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#fSky)"/>
+  <circle cx="120" cy="110" r="46" fill="#fff6d6" opacity="0.9"/>
+  <g fill="#ffffff" opacity="0.85">
+    <ellipse cx="620" cy="120" rx="90" ry="26"/><ellipse cx="680" cy="110" rx="60" ry="20"/>
+    <ellipse cx="220" cy="380" rx="90" ry="24"/><ellipse cx="160" cy="390" rx="60" ry="18"/>
+    <ellipse cx="600" cy="400" rx="80" ry="22"/>
+  </g>
+  <!-- dashed flight path -->
+  <path d="M60 430 Q 380 360 720 120" stroke="#ffffff" stroke-width="4" stroke-dasharray="2 14" stroke-linecap="round" fill="none" opacity="0.9"/>
+  <!-- airplane -->
+  <g transform="translate(430 250) rotate(-28)">
+    <path d="M-120 0 L100 0 C 140 0 160 -12 175 -18 C 150 -6 150 6 175 18 C 160 12 140 0 100 0 Z" fill="#ffffff"/>
+    <path d="M-120 0 L-150 -8 L-150 8 Z" fill="#ffffff"/>
+    <path d="M20 0 L-30 -55 L-10 -55 L60 0 Z" fill="#e6eef5"/>
+    <path d="M20 0 L-30 55 L-10 55 L60 0 Z" fill="#cfdce8"/>
+    <path d="M-70 0 L-95 -30 L-80 -30 L-45 0 Z" fill="#e6eef5"/>
+    <g fill="#7cc6ea"><rect x="-40" y="-7" width="14" height="8" rx="2"/><rect x="-15" y="-7" width="14" height="8" rx="2"/><rect x="10" y="-7" width="14" height="8" rx="2"/></g>
+  </g>
+</svg>

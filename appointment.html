@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Request an appointment with a WanderLux travel consultant to plan your next holiday.">
+  <meta name="keywords" content="travel appointment, book consultant, travel request, holiday planning">
+  <meta name="author" content="WanderLux Travel Agency">
+  <title>WanderLux Travel Agency | Appointment Request</title>
+  <link rel="stylesheet" href="style.css">
+  <noscript><style>.reveal{opacity:1 !important;transform:none !important;}</style></noscript>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Wander<span>Lux</span></div>
+    <button class="menu-btn" onclick="toggleMenu()" aria-label="Open menu">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="calculator.html">Trip Calculator</a></li>
+      <li><a href="appointment.html" class="active">Appointment</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+  <section class="section">
+    <h2>Request an Appointment</h2>
+    <p class="subtitle">Book a free consultation with one of our travel experts</p>
+
+    <div class="form-box">
+      <form id="appointmentForm" onsubmit="return validateAppointment()">
+        <label for="apptName">Full Name</label>
+        <input type="text" id="apptName" name="name" placeholder="Your name">
+        <span class="error" id="nameErr"></span>
+
+        <label for="apptEmail">Email</label>
+        <input type="email" id="apptEmail" name="email" placeholder="you@example.com">
+        <span class="error" id="emailErr"></span>
+
+        <label for="apptPhone">Phone</label>
+        <input type="text" id="apptPhone" name="phone" placeholder="e.g. 0400 000 000">
+        <span class="error" id="phoneErr"></span>
+
+        <label for="apptDate">Preferred Date</label>
+        <input type="date" id="apptDate" name="date">
+        <span class="error" id="dateErr"></span>
+
+        <label for="apptMessage">Message</label>
+        <textarea id="apptMessage" name="message" rows="4" placeholder="Tell us about your dream trip"></textarea>
+
+        <br><br>
+        <button type="submit" class="btn">Submit Request</button>
+
+        <div class="success-msg" id="apptSuccess">
+          Thank you! Your appointment request has been received. A consultant will contact you soon.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 WanderLux Travel Agency. All rights reserved.</p>
+    <p>123 Collins Street, Melbourne VIC | <a href="mailto:info@wanderlux.com">info@wanderlux.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

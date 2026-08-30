@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#39a0c9"/>
+      <stop offset="55%" stop-color="#9ad6e8"/>
+      <stop offset="100%" stop-color="#e8f8fb"/>
+    </linearGradient>
+    <linearGradient id="bSea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#25b0c9"/>
+      <stop offset="100%" stop-color="#0f8fae"/>
+    </linearGradient>
+    <linearGradient id="bSand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5e6bd"/>
+      <stop offset="100%" stop-color="#e7d199"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="640" fill="url(#bSky)"/>
+  <circle cx="800" cy="150" r="70" fill="#fff5d0" opacity="0.9"/>
+  <!-- hills -->
+  <path d="M0 380 Q 200 300 420 370 Q 600 420 1000 360 L1000 460 L0 460 Z" fill="#4f9d6f" opacity="0.7"/>
+  <!-- sea -->
+  <rect y="400" width="1000" height="120" fill="url(#bSea)"/>
+  <g stroke="#ffffff" stroke-width="3" opacity="0.3" fill="none">
+    <path d="M120 450 q 25 -8 50 0 t 50 0"/>
+    <path d="M760 460 q 25 -8 50 0 t 50 0"/>
+  </g>
+  <!-- beach -->
+  <path d="M0 500 Q 400 470 1000 505 L1000 640 L0 640 Z" fill="url(#bSand)"/>
+  <!-- Balinese temple gate (candi bentar) -->
+  <g fill="#9a6b4a">
+    <path d="M360 240 L410 240 L400 500 L370 500 Z"/>
+    <path d="M590 240 L640 240 L630 500 L600 500 Z"/>
+  </g>
+  <g fill="#7d5236">
+    <path d="M360 240 L385 200 L410 240 Z"/>
+    <path d="M590 240 L615 200 L640 240 Z"/>
+  </g>
+  <g stroke="#7d5236" stroke-width="3" opacity="0.8">
+    <path d="M372 300 L398 300"/><path d="M370 340 L400 340"/><path d="M368 380 L402 380"/>
+    <path d="M602 300 L628 300"/><path d="M600 340 L630 340"/><path d="M598 380 L632 380"/>
+  </g>
+  <!-- palm -->
+  <g transform="translate(120 300) scale(0.9)">
+    <path d="M40 0 C 30 90 24 180 22 250 L 40 250 C 44 180 52 90 60 0 Z" fill="#8a5a2b"/>
+    <g fill="#2f9e63">
+      <path d="M40 10 C -30 -30 -70 -10 -95 30 C -50 5 -5 15 40 30 Z"/>
+      <path d="M40 10 C 110 -30 150 -10 175 30 C 130 5 85 15 40 30 Z"/>
+      <path d="M40 6 C 0 -60 -30 -80 -55 -95 C -30 -55 5 -30 40 20 Z"/>
+      <path d="M40 6 C 80 -60 110 -80 135 -95 C 110 -55 75 -30 40 20 Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="pSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff9e7d"/>
+      <stop offset="45%" stop-color="#ffc7a8"/>
+      <stop offset="100%" stop-color="#ffe8d6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="640" fill="url(#pSky)"/>
+  <circle cx="720" cy="200" r="80" fill="#fff3d6" opacity="0.9"/>
+  <g fill="#ffffff" opacity="0.6">
+    <ellipse cx="200" cy="120" rx="80" ry="20"/>
+    <ellipse cx="850" cy="110" rx="70" ry="18"/>
+  </g>
+  <!-- city rooftops -->
+  <g fill="#c98f7a" opacity="0.7">
+    <rect x="60" y="470" width="120" height="120"/>
+    <rect x="200" y="500" width="90" height="90"/>
+    <rect x="760" y="490" width="110" height="100"/>
+    <rect x="880" y="510" width="80" height="80"/>
+  </g>
+  <!-- Eiffel Tower -->
+  <g fill="#7a5a44">
+    <path d="M500 60 L512 60 L516 140 L496 140 Z"/>
+    <path d="M496 140 L516 140 L536 300 L476 300 Z"/>
+    <path d="M476 300 L536 300 L580 560 L420 560 Z"/>
+    <!-- inner cutout arch -->
+  </g>
+  <path d="M470 320 Q 506 270 542 320 L 542 400 L 470 400 Z" fill="url(#pSky)"/>
+  <g stroke="#7a5a44" stroke-width="6" fill="none">
+    <path d="M455 470 L 555 470"/>
+    <path d="M468 400 L 542 400"/>
+    <path d="M430 560 L 500 300 L 570 560"/>
+    <path d="M486 560 L 500 300 L 514 560"/>
+  </g>
+  <rect x="494" y="30" width="12" height="34" fill="#7a5a44"/>
+  <!-- ground -->
+  <rect y="560" width="1000" height="80" fill="#6ba368"/>
+</svg>

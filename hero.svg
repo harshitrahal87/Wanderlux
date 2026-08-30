@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a7fd4"/>
+      <stop offset="45%" stop-color="#63b3ed"/>
+      <stop offset="70%" stop-color="#bfe3ff"/>
+      <stop offset="100%" stop-color="#eaf7ff"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7fd0e8"/>
+      <stop offset="100%" stop-color="#2c9fc4"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3e2b8"/>
+      <stop offset="100%" stop-color="#e6cf95"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6d6"/>
+      <stop offset="60%" stop-color="#ffe9a8"/>
+      <stop offset="100%" stop-color="#ffe9a8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="600" fill="url(#sky)"/>
+  <circle cx="1180" cy="160" r="170" fill="url(#sun)"/>
+  <circle cx="1180" cy="160" r="70" fill="#fff4cf"/>
+
+  <!-- soft clouds -->
+  <g fill="#ffffff" opacity="0.85">
+    <ellipse cx="300" cy="120" rx="90" ry="26"/>
+    <ellipse cx="360" cy="110" rx="70" ry="22"/>
+    <ellipse cx="620" cy="80" rx="70" ry="20"/>
+    <ellipse cx="900" cy="140" rx="80" ry="22"/>
+  </g>
+
+  <!-- distant island -->
+  <path d="M0 360 Q 180 300 380 340 Q 520 365 680 345 L 680 380 L 0 380 Z" fill="#5aa9c9" opacity="0.6"/>
+
+  <!-- sea -->
+  <rect y="360" width="1600" height="150" fill="url(#sea)"/>
+  <g stroke="#ffffff" stroke-width="3" opacity="0.35" fill="none">
+    <path d="M120 420 q 30 -12 60 0 t 60 0"/>
+    <path d="M520 450 q 30 -12 60 0 t 60 0"/>
+    <path d="M980 415 q 30 -12 60 0 t 60 0"/>
+    <path d="M1280 455 q 30 -12 60 0 t 60 0"/>
+  </g>
+
+  <!-- beach -->
+  <path d="M0 470 Q 400 430 800 475 Q 1200 520 1600 470 L 1600 600 L 0 600 Z" fill="url(#sand)"/>
+
+  <!-- palm tree left -->
+  <g transform="translate(150 250)">
+    <path d="M40 0 C 30 90 24 180 22 250 L 40 250 C 44 180 52 90 60 0 Z" fill="#8a5a2b"/>
+    <g fill="#2f9e63">
+      <path d="M40 10 C -30 -30 -70 -10 -95 30 C -50 5 -5 15 40 30 Z"/>
+      <path d="M40 10 C 110 -30 150 -10 175 30 C 130 5 85 15 40 30 Z"/>
+      <path d="M40 6 C 0 -60 -30 -80 -55 -95 C -30 -55 5 -30 40 20 Z"/>
+      <path d="M40 6 C 80 -60 110 -80 135 -95 C 110 -55 75 -30 40 20 Z"/>
+      <path d="M40 4 C 34 -70 44 -95 40 -120 C 60 -80 52 -40 46 18 Z"/>
+    </g>
+    <circle cx="20" cy="34" r="9" fill="#6b3f1d"/>
+    <circle cx="52" cy="30" r="9" fill="#6b3f1d"/>
+  </g>
+
+  <!-- palm tree right smaller -->
+  <g transform="translate(1360 300) scale(0.8)">
+    <path d="M40 0 C 30 90 24 180 22 250 L 40 250 C 44 180 52 90 60 0 Z" fill="#8a5a2b"/>
+    <g fill="#2b915a">
+      <path d="M40 10 C -30 -30 -70 -10 -95 30 C -50 5 -5 15 40 30 Z"/>
+      <path d="M40 10 C 110 -30 150 -10 175 30 C 130 5 85 15 40 30 Z"/>
+      <path d="M40 6 C 0 -60 -30 -80 -55 -95 C -30 -55 5 -30 40 20 Z"/>
+      <path d="M40 6 C 80 -60 110 -80 135 -95 C 110 -55 75 -30 40 20 Z"/>
+    </g>
+  </g>
+
+  <!-- little sailboat -->
+  <g transform="translate(760 400)">
+    <path d="M-30 20 L 30 20 L 22 40 L -22 40 Z" fill="#ffffff"/>
+    <path d="M0 -34 L 0 20 L 26 20 Z" fill="#e63946"/>
+    <path d="M0 -34 L 0 20 L -22 18 Z" fill="#ffffff"/>
+  </g>
+</svg>

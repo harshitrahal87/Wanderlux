@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="hkSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5bb0e6"/>
+      <stop offset="100%" stop-color="#d7f0ff"/>
+    </linearGradient>
+    <linearGradient id="hkLake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5ec8dd"/>
+      <stop offset="100%" stop-color="#2f9dbb"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#hkSky)"/>
+  <circle cx="640" cy="110" r="52" fill="#fff6d6"/>
+  <!-- back mountains -->
+  <path d="M0 300 L180 140 L360 300 Z" fill="#8aa9c2"/>
+  <path d="M260 300 L460 120 L660 300 Z" fill="#6f93b0"/>
+  <path d="M520 300 L680 170 L800 300 Z" fill="#5f86a5"/>
+  <!-- snow caps -->
+  <path d="M420 180 L460 120 L500 180 Q 460 158 420 180 Z" fill="#ffffff"/>
+  <path d="M150 190 L180 140 L212 190 Q 180 172 150 190 Z" fill="#ffffff"/>
+  <!-- pine trees -->
+  <g fill="#2f7d4f">
+    <path d="M120 360 L150 300 L180 360 Z"/><path d="M128 330 L150 285 L172 330 Z"/>
+    <path d="M640 360 L670 300 L700 360 Z"/><path d="M648 330 L670 285 L692 330 Z"/>
+  </g>
+  <!-- lake -->
+  <rect y="300" width="800" height="220" fill="url(#hkLake)"/>
+  <path d="M0 300 L180 140 L360 300 Z" fill="#8aa9c2" opacity="0.3" transform="translate(0 300) scale(1 -0.5)"/>
+  <g stroke="#ffffff" stroke-width="3" opacity="0.3" fill="none">
+    <path d="M120 380 q 22 -7 44 0 t 44 0"/>
+    <path d="M520 420 q 22 -7 44 0 t 44 0"/>
+  </g>
+</svg>
